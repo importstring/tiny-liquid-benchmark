@@ -29,6 +29,7 @@ dist/
 .idea/
 
 # Data / results / artifacts
+data/
 results/
 artifacts/
 checkpoints/
