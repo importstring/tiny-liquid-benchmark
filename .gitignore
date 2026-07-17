@@ -1,0 +1,48 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Tool / cache dirs
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
+
+# Data / results / artifacts
+results/
+artifacts/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.csv
+*.parquet
+
+# Logs and experiment tracking
+*.log
+wandb/
+
+# Environment files
+.env
